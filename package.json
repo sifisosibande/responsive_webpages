@@ -24,8 +24,8 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
-    "test": ""
+    "dev": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "vite": "^4.3.9",
