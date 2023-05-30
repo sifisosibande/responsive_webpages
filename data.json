@@ -1,0 +1,41 @@
+{
+    "user" : {
+        "fullName": "Sibande Sifiso Sipho",
+        "photo" : "./images.jpg"
+    },
+    "city" : {
+        "name" : "Tokyo",
+        "photo" : "./download.jpg",
+        "description" : "Tokyo is a city rich in history, culture, and natural beauty. It was once the capital of Japan and is known for its numerous temples, shrines, and traditional Japanese gardens.The city is famous for its stunning cherry blossoms in spring and vibrant autumn foliage, offering breathtaking scenery throughout the year."
+    },
+    "foreignLanguage" : {
+        "language" : "French",
+        "phrases" : [
+        {
+            "englishPhrase" : "Thank you",
+            "foreignLanguage" : "Merci"
+        },
+        {
+            "englishPhrase" : "How are you?",
+            "foreignLanguage" : "Comment ça va?"
+        },
+        {
+            "englishPhrase" : "Where is the nearest restaurant?",
+            "foreignLanguage" : "Où est le restaurant le plus proche?"
+        }]
+    },
+    "favouriteSubjects" : [
+        {
+            "name" : "Engineering mathematics",
+            "description" : "./download1.jpg"
+        },
+        {
+            "name" : "Production engineering",
+            "description" : "./images1.jpg"
+        },
+        {
+            "name" : "Manufacturing system design",
+            "description" : "./download2.jpg"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>{{user.fullName}}</h1>
+
+                </div>
+                <div class="col img">
+                    <img src="./images.jpg" class="img">
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    <section>
+        <div class="container">
+            <div class ="row">
+                <div class="col">
+                    <h1>{{city.name}}</h1>
+
+
+                </div>
+                <div class= "col img">
+                    <img src="./download.jpg" alt="image of Tokyo.">
+
+                </div>
+                <div class="decribtion">
+                    <p>{{city.description}}</p>
+
+                </div>
+            </div>
+        
+
+
+        </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>{{foreignLanguage.language}}</h1>
+
+                </div>
+                <div class="foreignLanguage">
+                    <table>
+                        <tr>
+                            <thead><th>English</th><th>French</th></thead>
+                        </tr>
+                        {{#each foreignLanguage.phrases}}
+                        <tr>
+                            <td>{{englishPhrase}}</td>
+                            <td>{{foreignLanguage}}</td>
+
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>favourite subjects</h2>
+                    <h3>Bachelor of Engineering Technology in Industrial Engineering at the university of Johannesburg. </h3>
+
+                </div>
+                <div class="favourite">
+                    {{#each favouriteSubjects}}
+                    {{name}}
+                    <img src={{description}}>
+                    {{/each}}
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+
+</body>
+</html>
