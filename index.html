@@ -15,7 +15,7 @@
 
                 </div>
                 <div class="col img">
-                    <img src="data.user.photo" class="img">
+                    <img src="{{data.user.photo}}" class="img">
                 </div>
 
             </div>
@@ -36,7 +36,7 @@
 
                 </div>
                 <div class="decribtion">
-                    <p>{{city.description}}</p>
+                    <p>{{data.city.description}}</p>
 
                 </div>
             </div>
@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>{{foreignLanguage.language}}</h1>
+                    <h1>{{data.foreignLanguage.language}}</h1>
 
                 </div>
                 <div class="foreignLanguage">
@@ -59,7 +59,7 @@
                         <tr>
                             <thead><th>English</th><th>French</th></thead>
                         </tr>
-                        {{#each foreignLanguage.phrases}}
+                        {{#each data.foreignLanguage.phrases}}
                         <tr>
                             <td>{{englishPhrase}}</td>
                             <td>{{foreignLanguage}}</td>
@@ -83,7 +83,7 @@
 
                 </div>
                 <div class="favourite">
-                    {{#each favouriteSubjects}}
+                    {{#each data.favouriteSubjects}}
                     {{name}}
                     <img src={{description}}>
                     {{/each}}
