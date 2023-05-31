@@ -50,11 +50,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md" style="padding: 5em;">
-                    <h1>{{user.fullName}}</h1>
+                    <h1>{{data.user.fullName}}</h1>
 
                 </div>
                 <div class="col img">
-                    <img src= "{{user.photo}}" class="img">
+                    <img src= "{{data.user.photo}}" class="img">
                 </div>
 
             </div>
@@ -64,17 +64,17 @@
     </section>
     <section>
 
-            <h2 id="background-heading3">{{city.name}}</h2>
+            <h2 id="background-heading3">{{data.city.name}}</h2>
             <div class ="row">
                 <div class="col-md">
-                    <img src= "{{city.photo}}" alt="image of Tokyo.">
+                    <img src= "{{data.city.photo}}" alt="image of Tokyo.">
 
 
 
                 </div>
 
                 <div class= "col img">
-                    {{city.description}}
+                    {{data.city.description}}
 
 
 
@@ -96,7 +96,7 @@
 
             <div class="row">
                 <div class="col-md">
-                    <h2 id="background-heading2">{{foreignLanguage.language}}</h2>
+                    <h2 id="background-heading2">{{data.foreignLanguage.language}}</h2>
 
                 </div>
                 <div class="foreignLanguage">
@@ -104,7 +104,7 @@
                         <tr>
                             <thead><th>English</th><th>French</th></thead>
                         </tr>
-                        {{#each foreignLanguage.phrases}}
+                        {{#each data.foreignLanguage.phrases}}
                         <tr>
                             <td>{{englishPhrase}}</td>
                             <td>{{foreignLanguage}}</td>
@@ -124,7 +124,7 @@
             <h2 id="background-heading">Favourite subjects</h2>
             <h4>Bachelor of Engineering Technology in Industrial Engineering at the university of Johannesburg. </h4>
             <div class="row" style="background-color: aliceblue;">
-                {{#each favouriteSubjects}}
+                {{#each data.favouriteSubjects}}
                 
                 <div class="col-md" style="padding: 3em;">
                     {{name}}
