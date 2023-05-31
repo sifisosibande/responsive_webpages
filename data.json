@@ -5,7 +5,7 @@
     },
     "city" : {
         "name" : "Tokyo",
-        "photo" : "./image/download.jpg",
+        "photo" : "image/download.jpg",
         "description" : "Tokyo is a city rich in history, culture, and natural beauty. It was once the capital of Japan and is known for its numerous temples, shrines, and traditional Japanese gardens.The city is famous for its stunning cherry blossoms in spring and vibrant autumn foliage, offering breathtaking scenery throughout the year."
     },
     "foreignLanguage" : {

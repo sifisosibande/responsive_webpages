@@ -11,11 +11,11 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>{{user.fullName}}</h1>
+                    <h1>{{data.user.fullName}}</h1>
 
                 </div>
                 <div class="col img">
-                    <img src="./images.jpg" class="img">
+                    <img src="data.user.photo" class="img">
                 </div>
 
             </div>
@@ -27,12 +27,12 @@
         <div class="container">
             <div class ="row">
                 <div class="col">
-                    <h1>{{city.name}}</h1>
+                    <h1>{{data.city.name}}</h1>
 
 
                 </div>
                 <div class= "col img">
-                    <img src="./download.jpg" alt="image of Tokyo.">
+                    <img src="{{data.city.photo}}" alt="image of Tokyo.">
 
                 </div>
                 <div class="decribtion">
