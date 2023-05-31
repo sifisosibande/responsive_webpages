@@ -1,7 +1,7 @@
 {
     "user" : {
         "fullName": "Sibande Sifiso Sipho",
-        "photo" : "./image/images.jpg"
+        "photo" : "image/images.jpg"
     },
     "city" : {
         "name" : "Tokyo",
@@ -27,15 +27,15 @@
     "favouriteSubjects" : [
         {
             "name" : "Engineering mathematics",
-            "description" : "./image/download1.jpg"
+            "description" : "image/download1.jpg"
         },
         {
             "name" : "Production engineering",
-            "description" : "./image/images1.jpg"
+            "description" : "image/images1.jpg"
         },
         {
             "name" : "Manufacturing system design",
-            "description" : "./image/download2.jpg"
+            "description" : "image/download2.jpg"
         }
     ]
 }
